@@ -1,0 +1,130 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+html{
+  background: #fff;
+}
+
+#mySurveyForm{
+  border: 1px solid black;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+  width: 800px;
+  height: 100%s;
+
+}
+
+#myLabel{
+  float: left;
+  width: 899px;
+  height: 45px;
+  padding:20px 0px 0px 0px ;
+  padding: 5px 0 0 0;
+  margin: 4px 4px 4px 4px ;
+}
+
+#myHeading{
+  text-align: center;
+  background: black;
+  color: #fff;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#myLabel{
+  width: 341px;
+  height: 30px;
+  float: left;
+  border-radius: 5px;
+}
+#myText1{
+  width: 350px;
+  height: 30px;
+  float: left;
+  border-radius: 5px;
+}
+
+#myText2{
+  width: 350px;
+  height: 30px;
+  float: left;
+  border-radius: 5px;
+}
+#myDate{
+  width: 350px;
+  height: 30px;
+  float: left;
+  border-radius: 5px;
+}
+#StudentOption{
+  width: 350px;
+  height: 30px;
+  float: left;
+  border-radius: 5px;
+}
+
+#myPhoneNumber{
+  width: 350px;
+  height: 30px;
+  float: left;
+  border-radius: 5px;
+}
+#myEmail{
+  width: 350px;
+  height: 30px;
+  float: left;
+  border-radius: 5px;
+}
+#myTextArea{
+  width: 730px;
+  height: 160px;
+  overflow: hidden;
+  
+}
+#myTextArea:hover{
+  box-shadow: 1px 1px 1px 1px;
+  color: aqua;
+}
+#myTextArea2{
+  width: 730px;
+  height: 160px;
+  
+}
+#myTextArea2:hover{
+  box-shadow: 1px 1px 1px 1px;
+  color: aqua;
+}
+#myTextArea3{
+  width: 730px;
+  height: 160px;
+}
+#myTextArea3:hover{
+  box-shadow: 1px 1px 1px 1px;
+  color: aqua;
+}
+#myBtn{
+  border: none;
+  margin: 4px 4px 4px 4px;
+  padding: 4px 4px 4px 4px;
+  background: green;
+  color: white;
+  width: 18%;
+  height: 45px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  translate: 215% -11%;
+}
+#myBtn:hover{
+  background: lightgreen;
+  transition: 0.3ms;
+  color: white;
+}
